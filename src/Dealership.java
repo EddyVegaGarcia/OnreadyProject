@@ -1,10 +1,10 @@
-import javax.swing.text.html.HTMLDocument;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class Dealership {
 
-    List<Vehicle> listVehicle = ArrayList<Vehicle>;
+    List<Vehicle> listVehicle = new ArrayList<>();
 
     Dealership(){
 
