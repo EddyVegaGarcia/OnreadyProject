@@ -1,4 +1,4 @@
-public class Auto extends Vehicle implements Spec{
+public class Auto extends Vehicle {
 
     public Auto(String aBrandAuto, String aModelAuto, int aNumberDoorAuto, Double aPriceAuto) {
 

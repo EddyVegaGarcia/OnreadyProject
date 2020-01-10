@@ -1,4 +1,4 @@
-public abstract class Vehicle implements Comparable<Vehicle> {
+public abstract class Vehicle implements Comparable<Vehicle>, Spec{
 
     String brandVehicle;
     String modelVehicle;
@@ -34,4 +34,12 @@ public abstract class Vehicle implements Comparable<Vehicle> {
     public int compareTo(Vehicle aVehicle) {
         return priceVehicle.compareTo(aVehicle.getPriceVehicle());
     }
+
+    @Override
+    public void printBrandModelVehicle() {
+
+        System.out.println(String.format("%1$s %2$s", brandVehicle, modelVehicle));
+
+    }
+
 }
