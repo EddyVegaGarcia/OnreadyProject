@@ -42,7 +42,10 @@ public class Dealership {
 
     public void printCheapPriceVehicle() {
 
-
+        List<Vehicle> listAuxiliarVehicle = listVehicle;
+        Collections.sort(listAuxiliarVehicle);
+        System.out.print("Vehículo más caro: ");
+        ((Spec)listAuxiliarVehicle.get(0)).printBrandModelVehicle();
 
     }
 
