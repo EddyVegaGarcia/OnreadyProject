@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -32,7 +33,9 @@ public class Dealership {
 
     public void printCostlyPriceVehicle() {
 
-
+        List<Vehicle> listAuxiliarVehicle = listVehicle;
+        Collections.sort(listAuxiliarVehicle);
+        listAuxiliarVehicle.get(0).printBrandModelVehicle();
 
     }
 

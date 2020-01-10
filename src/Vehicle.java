@@ -1,4 +1,4 @@
-public abstract class Vehicle {
+public abstract class Vehicle implements Comparable<Vehicle> {
 
     String brandVehicle;
     String modelVehicle;
@@ -28,5 +28,10 @@ public abstract class Vehicle {
 
     public Double getPriceVehicle() {
         return priceVehicle;
+    }
+
+    @Override
+    public int compareTo(Vehicle aVehicle) {
+        return priceVehicle.compareTo(aVehicle.getPriceVehicle());
     }
 }
