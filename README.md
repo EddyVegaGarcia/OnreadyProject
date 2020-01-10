@@ -41,6 +41,10 @@
 -   Se utilizó la herramienta de **herencia** de un nivel porque tanto los autos y motos heredan de vehículo, los hijos pueden llamar a sus atributos sin romper el **encapsulamiento**.
     
 
+## Diagrama UML
+
+- Diagrama de clases: (https://github.com/EddyVegaGarcia/OnreadyProject/blob/master/onreadyUML.png)
+
 ## Desarrollador
 
 -   Tengo conocimientos de Git con lo cuál cree este respositorio y pude ir trabajando a la par con el desarrollo del programa.
