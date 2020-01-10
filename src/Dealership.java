@@ -34,8 +34,9 @@ public class Dealership {
     public void printCostlyPriceVehicle() {
 
         List<Vehicle> listAuxiliarVehicle = listVehicle;
-        Collections.sort(listAuxiliarVehicle);
-        listAuxiliarVehicle.get(0).printBrandModelVehicle();
+        Collections.sort(listAuxiliarVehicle, Collections.reverseOrder());
+        System.out.print("Vehículo más caro: ");
+        ((Spec)listAuxiliarVehicle.get(0)).printBrandModelVehicle();
 
     }
 
