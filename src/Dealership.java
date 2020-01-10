@@ -61,7 +61,12 @@ public class Dealership {
 
     public void printFallingPriceVehicle() {
 
-
+        List<Vehicle> listAuxiliarVehicle = listVehicle;
+        Collections.sort(listAuxiliarVehicle, Collections.reverseOrder());
+        System.out.println("Vehículos ordenados por precio de mayor a menor: ");
+        Iterator iter = listAuxiliarVehicle.iterator();
+        while (iter.hasNext())
+            ((Spec)iter.next()).printBrandModelVehicle();
 
     }
 }
