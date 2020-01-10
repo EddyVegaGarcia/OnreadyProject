@@ -8,19 +8,25 @@ public class Dealership {
 
     Dealership(){
 
-        listVehicle.add(new Auto("Peugeot", "206", 4, 200000));
-        listVehicle.add(new Moto("Honda", "Titan", 125, 60000));
-        listVehicle.add(new Auto("Peugeot", "208", 5, 250000));
-        listVehicle.add(new Moto("Yamaha", "YBR", 160, 80500.5));
+        listVehicle.add(new Auto("Peugeot", "206", 4, 200000.00));
+        listVehicle.add(new Moto("Honda", "Titan", 125, 60000.00));
+        listVehicle.add(new Auto("Peugeot", "208", 5, 250000.00));
+        listVehicle.add(new Moto("Yamaha", "YBR", 160, 80500.50));
 
     }
 
+    private void printSeparator(){
+
+        System.out.println("=============================");
+
+    }
 
     public void printListVehicle() {
 
         Iterator iter = listVehicle.iterator();
         while (iter.hasNext())
             ((Spec)iter.next()).printSpecVehicle();
+        this.printSeparator();
 
     }
 

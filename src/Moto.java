@@ -8,7 +8,7 @@ public class Moto extends Vehicle implements Spec{
 
     @Override
     public void printSpecVehicle() {
-        System.out.println(String.format("Marca: %1$s // Modelo: %2$s // Cilindrada: %3$dc // Precio: $%4$,.2d",
+        System.out.println(String.format("Marca: %1$s // Modelo: %2$s // Cilindrada: %3$dc // Precio: $%4$,.2f",
                 getBrandVehicle(), getModelVehicle(), getNumberExtraVehicle(), getPriceVehicle()));
     }
 }
