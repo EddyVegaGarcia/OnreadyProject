@@ -1,4 +1,4 @@
-public class Moto extends Vehicle {
+public class Moto extends Vehicle implements Spec{
 
     public Moto(String aBrandMoto, String aModelMoto, int aDisplacementMoto, Double aPriceMoto) {
 
@@ -6,4 +6,9 @@ public class Moto extends Vehicle {
 
     }
 
+    @Override
+    public void printSpecVehicle() {
+        System.out.println(String.format("Marca: %1$s // Modelo: %2$s // Cilindrada: %3$dc // Precio: $%4$,.2d",
+                getBrandVehicle(), getModelVehicle(), getNumberExtraVehicle(), getPriceVehicle()));
+    }
 }

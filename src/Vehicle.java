@@ -14,6 +14,19 @@ public abstract class Vehicle {
 
     }
 
+    public String getBrandVehicle() {
+        return brandVehicle;
+    }
 
+    public String getModelVehicle() {
+        return modelVehicle;
+    }
 
+    public int getNumberExtraVehicle() {
+        return numberExtraVehicle;
+    }
+
+    public Double getPriceVehicle() {
+        return priceVehicle;
+    }
 }
