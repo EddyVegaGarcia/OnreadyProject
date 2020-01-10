@@ -4,4 +4,5 @@ public interface Spec {
 
     void printBrandModelVehicle();
 
+    void printModelContainsLetter(String aLetter);
 }

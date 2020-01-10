@@ -42,4 +42,10 @@ public abstract class Vehicle implements Comparable<Vehicle>, Spec{
 
     }
 
+    @Override
+    public void printModelContainsLetter(String aLetter) {
+        if(modelVehicle.contains(aLetter)) {System.out.println(String.format("%1$s %2$s $%3$,.2f", brandVehicle,
+                modelVehicle, priceVehicle));}
+    }
+
 }

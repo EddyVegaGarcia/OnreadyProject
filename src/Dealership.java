@@ -51,7 +51,11 @@ public class Dealership {
 
     public void printModelContainsLetter(String aLetter) {
 
-
+        System.out.print("Vehículo que contiene en el modelo la letra ‘Y’: ");
+        Iterator iter = listVehicle.iterator();
+        while (iter.hasNext())
+            ((Spec)iter.next()).printModelContainsLetter("Y");
+        this.printSeparator();
 
     }
 
