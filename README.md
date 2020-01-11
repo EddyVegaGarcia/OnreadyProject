@@ -51,4 +51,4 @@
 
 -   Tengo conocimientos de Git con lo cuál cree este respositorio y pude ir trabajando a la par con el desarrollo del programa.
     
--   Este trabajo puede desarrollarse desde un inicio con diseño **Unit Testing** con conceptos de **métodos ágiles** gracias a la herramienta de **Unix** para Java: `Junit`. 
+-   Este trabajo puede desarrollarse desde un inicio con diseño **Unit Testing** con conceptos de **TDD** gracias a la herramienta de **Unix** para Java: `Junit`. 
