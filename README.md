@@ -43,7 +43,7 @@
 
 ## Diagrama UML
 
-- Diagrama de clases: (https://github.com/EddyVegaGarcia/OnreadyProject/blob/master/onreadyUML.png)
+- Diagrama de clases: ![](https://github.com/EddyVegaGarcia/OnreadyProject/blob/master/onreadyUML.png)
 
 ## Desarrollador
 
